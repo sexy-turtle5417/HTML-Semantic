@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&display=swap');
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 30%;
+    grid-template-rows: 80px 60px 1fr 1fr 80px;
+    height: auto;
+    margin: auto 200px;
+}
+
+header{
+    background: rgb(117, 200, 200);
+    color: white;
+}
+
+header, nav, #section1, #section2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#section1, #section2{
+    background-color: rgb(240, 240, 240);
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#section1{
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+aside{
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+footer{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Alegreya';
+    color: rgb(49, 49, 49);
+}
+
+p{
+    font-family: 'Alegreya';
+    text-align: justify;
+    color: rgb(49, 49, 49);
+}
+
+section{
+    padding: 10px 30px;
+    font-size: 18px;
+}
+
+h2{
+    font-family: 'Alegreya';
+    color: rgb(49, 49, 49);
+}
+
+aside{
+    padding: 10px 30px;
+    background-color: rgb(240, 240, 240);
+}
+
+footer{
+    display: grid;
+    place-items: center;
+    background-color: rgb(240, 240, 240);
+}
+
+
+
+
+.navDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 100%;
+}
+
+
+
+a{
+    display: grid;
+    place-items: center;
+}
+
+nav{
+    border: 2px solid rgb(107, 107, 107);
+    border-left: 3px solid rgb(107, 107, 107);
+}
+
+#section1{
+    border-left: 3px solid rgb(107, 107, 107);
+    border-bottom: 2px solid rgb(107, 107, 107);
+    border-right: 2px solid rgb(107, 107, 107);
+}
+
+#section2{
+    border-left: 3px solid rgb(107, 107, 107);
+    border-right: 2px solid rgb(107, 107, 107);
+    border-bottom: 2px solid rgb(107, 107, 107);
+}
+
+aside{
+    border-right: 3px solid rgb(107, 107, 107);
+    border-bottom: 2px solid rgb(107, 107, 107);
+}
+
+footer{
+    border-right: 3px solid rgb(107, 107, 107);
+    border-left: 3px solid rgb(107, 107, 107);
+    border-bottom: 3px solid rgb(107, 107, 107);
+}
+
+.navBut{
+    font-family: 'Alegreya';
+    font-weight: bold;
+    font-size: 20px;
+    height: auto;
+    width: auto;
+    color: rgb(77, 77, 77);
+    background: rgb(221, 221, 221);
+    border-right: 2px solid rgb(107, 107, 107);
+}
+
+.lastNavItem{
+    border-right: none;
+}
+
+header{
+    border-left: 3px solid rgb(107, 107, 107);
+    border-top: 3px solid rgb(107, 107, 107);
+    border-right: 3px solid rgb(107, 107, 107);
+}
+
+
+
+
+
